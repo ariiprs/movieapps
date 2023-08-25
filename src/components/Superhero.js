@@ -11,10 +11,10 @@ const SuperHero = () => {
     <div>
       <Container>
         <br />
-        <h1 className="text-white">TRENDING MOVIES</h1>
+        <h1 className="text-white">SUPERHERO MOVIES</h1>
         <br />
         <Row>
-          <Col md={4} className="moveiWrapper">
+          <Col md={4} className="moveiWrapper" id="superhero">
             <Card className="text-white  movieImage">
               <Image src={duneImage} alt="Card image" className="images" />
               <div className="bg-dark">
